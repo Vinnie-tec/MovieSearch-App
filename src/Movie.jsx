@@ -12,7 +12,7 @@ const Movie = ({movie}) => {
           src={
             movie.Poster !== "N/A"
               ? movie.Poster
-              : "http://via.placeholder.com/400"
+              : "https://via.placeholder.com/400"
           }
           alt={movie.Title}
         />
